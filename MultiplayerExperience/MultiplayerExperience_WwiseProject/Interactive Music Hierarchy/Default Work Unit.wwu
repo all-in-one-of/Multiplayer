@@ -1,0 +1,2824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB26FA3A-343F-4316-8556-4AFC33D3B2A0}" SchemaVersion="89">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{CB26FA3A-343F-4316-8556-4AFC33D3B2A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="MusicSelector" ID="{4599E8FC-9C48-4776-BD40-754642216AC1}" ShortID="615766167">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="150"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Music" ID="{13DDD0BB-CC56-41D3-88F9-2312DC0F9A06}" ShortID="798922379">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="23166.5154264973"/>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Arkryas_Bass1" ID="{76E3FAB7-3208-4551-9A41-88B382AA4ACB}" ShortID="1036275662">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="BassBus" ID="{44BF59C2-EB5C-4ECA-8111-B24687AF8226}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Bass1" ID="{9C323AE1-A600-4DCD-9AB5-5DB27CBA4B54}" ShortID="204230784">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Bass1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Arkryas_Bass_Track" ID="{194AD95A-0D24-4852-8415-981280D4FDE3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Bass2" ID="{D3F6F3D9-9D1F-4167-AE12-A92248E3926C}"/>
+												<State Name="" ID="{1CF276F3-C29A-4C48-832D-1CCF1CEDFCB2}" ShortID="1013419963">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass3" ID="{BB6E32D8-1F20-42C9-82D7-3FA5C6F33646}"/>
+												<State Name="" ID="{F58A55D8-01FB-4AF3-B502-1ECF951FFD0F}" ShortID="483367756">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass_OFF" ID="{61C45839-10F9-44C8-9526-9730C2E805DF}"/>
+												<State Name="" ID="{39DB7563-90EB-4062-BF68-358E418F2124}" ShortID="206510086">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass1" ID="{4EBDAD2C-74C0-45B5-9386-DE52F76A4E48}"/>
+												<State Name="" ID="{1A2A29E2-9AD7-42DF-A057-6465DF25AF65}" ShortID="1009134306"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E338B694-B58F-46F2-B388-5633B0F2AF8C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0FE8B849-DC7B-4892-8325-009094A55A6E}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Bass1" ID="{19D4D25B-A1A3-4E1A-8C01-3FFCBCCED9D5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Bass1" ID="{9C323AE1-A600-4DCD-9AB5-5DB27CBA4B54}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{4CD23D7D-6FFE-4FC4-B3DD-A12E3FAAA501}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{BBB85CBE-FD97-4A95-90DA-62B5AF8CBCAF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{C6D1F140-DED2-4A6F-8A2B-E5439E370319}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Bass2" ID="{989C4BAE-4F41-4A08-A1F9-FDF63CC6E9E7}" ShortID="418537945">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="BassBus" ID="{44BF59C2-EB5C-4ECA-8111-B24687AF8226}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Bass2" ID="{9AA825B7-4AA8-4FA1-81F8-DFAAFBADE041}" ShortID="530057972">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Bass2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Bass_Track" ID="{194AD95A-0D24-4852-8415-981280D4FDE3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Bass2" ID="{D3F6F3D9-9D1F-4167-AE12-A92248E3926C}"/>
+												<State Name="" ID="{905DBDD0-FB91-4DD8-950D-0835D718621D}" ShortID="461725652"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass3" ID="{BB6E32D8-1F20-42C9-82D7-3FA5C6F33646}"/>
+												<State Name="" ID="{37F736AE-F261-40FF-A304-C26DE45C8473}" ShortID="221609538">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass_OFF" ID="{61C45839-10F9-44C8-9526-9730C2E805DF}"/>
+												<State Name="" ID="{84D19E2A-8EA8-4351-A793-61F25100BEF1}" ShortID="656229133">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass1" ID="{4EBDAD2C-74C0-45B5-9386-DE52F76A4E48}"/>
+												<State Name="" ID="{B77076CF-6677-46F5-8A08-96442B866E61}" ShortID="609579029">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C138F1F7-FFA6-462E-8FD1-84C0A56884F3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0619A14F-D067-4E60-8810-D4355ECDEAFF}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Bass2" ID="{F9531B00-1A81-4FDB-BC88-1B44A9C071CD}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Bass2" ID="{9AA825B7-4AA8-4FA1-81F8-DFAAFBADE041}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{10144E09-2ADF-4B0C-AF89-7658F0FDD416}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{A6DAAA3C-B2A0-43A1-B54D-26E5C7E653E5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{37C51BB8-8FC5-4876-9F6E-3F3327DCC520}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Bass3" ID="{DC835629-E3C4-4D48-A8BA-73D8191B3097}" ShortID="299476997">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="BassBus" ID="{44BF59C2-EB5C-4ECA-8111-B24687AF8226}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Bass3" ID="{18B013D1-884E-4644-8513-AD3D51CD8495}" ShortID="542965351">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Bass3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Bass_Track" ID="{194AD95A-0D24-4852-8415-981280D4FDE3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Bass2" ID="{D3F6F3D9-9D1F-4167-AE12-A92248E3926C}"/>
+												<State Name="" ID="{407C6F04-7C0A-4688-A83C-9D1C9F305363}" ShortID="18564210">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass3" ID="{BB6E32D8-1F20-42C9-82D7-3FA5C6F33646}"/>
+												<State Name="" ID="{F9F7F17E-F385-40C3-8B67-26A6CDB46B2D}" ShortID="684521328"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass_OFF" ID="{61C45839-10F9-44C8-9526-9730C2E805DF}"/>
+												<State Name="" ID="{47C2616D-AC2D-47FD-95ED-28808C41FD8B}" ShortID="27318018">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Bass1" ID="{4EBDAD2C-74C0-45B5-9386-DE52F76A4E48}"/>
+												<State Name="" ID="{EC92FE44-4116-4C11-A263-7D36146D830B}" ShortID="813348693">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{7676DAF2-708F-441D-84AE-C7F57BBBBD37}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{702F9053-26D3-4350-8706-1ECCD7F6DFD5}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Bass3" ID="{7393169B-A352-4CBE-9111-21F6B1D82381}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Bass3" ID="{18B013D1-884E-4644-8513-AD3D51CD8495}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{DA9E0293-47BD-4EAD-BFB6-86DBB16592D6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{3964B182-8623-42BC-982E-92D57F24E127}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{8A38700C-DFFF-469F-8175-0B3A4F395DBE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Chords2" ID="{98283CE6-CEC4-488E-8700-9A52BCD57065}" ShortID="196674576">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ChordsBus" ID="{625E88CD-AB5E-4989-9F21-6E24C6258FF4}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Chords2" ID="{97E8B408-B9CB-4360-80CD-C8AF19C7CB66}" ShortID="522066767">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Chords2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="802862115"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Chords_Track" ID="{C191F837-3EC5-414B-906D-48ADAA795DAB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Chords3" ID="{176B4734-D9FE-4526-8E1A-B9AB51843804}"/>
+												<State Name="" ID="{3947CA1F-45FE-462A-9831-DE1D9CEF2BC3}" ShortID="202543989">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords1" ID="{4E4A53CA-E26C-45FA-BB7F-57C87F3027C3}"/>
+												<State Name="" ID="{D436DF9D-4439-48F6-BCDB-4428DB3EF834}" ShortID="719591476">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords2" ID="{EAE7CA7A-700D-462C-B4F5-67F3F9C04FE1}"/>
+												<State Name="" ID="{CE15F4BB-255A-430F-BED1-E3CD22E3437F}" ShortID="25708868"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords_OFF" ID="{293BC129-E5F9-4DB1-B928-7841F87165A4}"/>
+												<State Name="" ID="{346379C6-3343-4F19-B0A6-B5970FB667C0}" ShortID="501121569">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DE9B9206-5764-435A-8CD2-0C81C8F282D0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{30791838-3512-46F0-8AA7-47172012B04B}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Chords2" ID="{B831C57D-420A-46A4-89C2-39BA8663D5E8}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Chords2" ID="{97E8B408-B9CB-4360-80CD-C8AF19C7CB66}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{AB936773-9C75-475A-97D1-4ED50CEA0C10}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{E5069741-9C68-4167-829F-D3967A0B49B2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{8C2BDBE2-9A37-44B8-A394-16F3EB947F08}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Chords1" ID="{3B3515A6-BBB9-481F-B41B-CFEBE138D2A3}" ShortID="196273852">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ChordsBus" ID="{625E88CD-AB5E-4989-9F21-6E24C6258FF4}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Chords1" ID="{9C05D20F-39DE-49E0-92D9-F2ECE5934D08}" ShortID="782860160">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Chords1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="688084625"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Chords_Track" ID="{C191F837-3EC5-414B-906D-48ADAA795DAB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Chords3" ID="{176B4734-D9FE-4526-8E1A-B9AB51843804}"/>
+												<State Name="" ID="{31B7FE95-8AFC-455E-8118-3BB87880E5AD}" ShortID="773492278">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords1" ID="{4E4A53CA-E26C-45FA-BB7F-57C87F3027C3}"/>
+												<State Name="" ID="{D301AD5A-5C65-405E-BC35-DF463C6B5979}" ShortID="76294920"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords2" ID="{EAE7CA7A-700D-462C-B4F5-67F3F9C04FE1}"/>
+												<State Name="" ID="{4D7B2C31-C0BE-4208-894C-DCD8A06B7969}" ShortID="524830452">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords_OFF" ID="{293BC129-E5F9-4DB1-B928-7841F87165A4}"/>
+												<State Name="" ID="{D719D249-94A7-447E-99B0-6099F0418EA6}" ShortID="686793850">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9A5B70FD-023B-421E-8C7D-27167FA41BA7}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4EBB4B7C-6385-4144-A044-680B2C8BD1EF}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Chords1" ID="{4B13C45F-3AF6-4B3F-A188-F06842A812C4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Chords1" ID="{9C05D20F-39DE-49E0-92D9-F2ECE5934D08}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{BC50921E-0EFE-431D-8BB0-7BE07DB77E6C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{DB688F87-9AD1-4941-ABFC-9FC61F90AC10}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{EB7745E9-0FCA-459C-ABDC-D0B384AB15BE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Chords3" ID="{7F0AFC1D-40D7-46B1-9053-22F8257B040B}" ShortID="959835163">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ChordsBus" ID="{625E88CD-AB5E-4989-9F21-6E24C6258FF4}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Chords3" ID="{E3C3C483-E8DE-4A51-A652-43DD1CC994BD}" ShortID="266582261">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Chords3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="992572901"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Arkryas_Chords_Track" ID="{C191F837-3EC5-414B-906D-48ADAA795DAB}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Chords3" ID="{176B4734-D9FE-4526-8E1A-B9AB51843804}"/>
+												<State Name="" ID="{594732DF-BA39-4479-8D56-6CF9E8C17BB3}" ShortID="71233180"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords1" ID="{4E4A53CA-E26C-45FA-BB7F-57C87F3027C3}"/>
+												<State Name="" ID="{AFD9BEEA-75FC-4B3D-97D4-D34B1DADDCD0}" ShortID="685092192">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords2" ID="{EAE7CA7A-700D-462C-B4F5-67F3F9C04FE1}"/>
+												<State Name="" ID="{AC35622F-1B13-4387-A85F-509D194D583E}" ShortID="463857261">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Chords_OFF" ID="{293BC129-E5F9-4DB1-B928-7841F87165A4}"/>
+												<State Name="" ID="{4753AC69-6BAF-415F-BD08-93C061AA693A}" ShortID="77446708">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{71922CD6-8810-4D71-B099-EFEF4BCA0F7F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{D85CF432-C86D-4C23-AAB5-0E150C00E92F}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Chords3" ID="{8D500CE2-1FBC-46E5-BE09-6433738E561B}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Chords3" ID="{E3C3C483-E8DE-4A51-A652-43DD1CC994BD}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{EF6B99C3-EED7-4656-9649-8EF68DEB437D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{1D7A1426-5027-49E2-A75D-B45AA59A38CE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{A5611CBD-48CA-4971-86E9-3B69F29B6CB2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Lead1" ID="{2D309BCF-205C-4DA6-AFD1-6E4CC684199A}" ShortID="525880221">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="LeadBus" ID="{67D13806-2FB3-42A3-911B-8662DF783BED}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Lead1" ID="{DBCB8568-952E-45BB-9355-3E38E3250356}" ShortID="617042577">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Lead1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="431905453"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Lead_Track" ID="{47B8600C-CFCE-46C5-9E79-236F8A07C1BE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Lead3" ID="{21454B78-799A-44FC-B84B-998C91D706A1}"/>
+												<State Name="" ID="{D1B6A61B-BEC1-454B-BF12-DF1CC8445494}" ShortID="918512632">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead1" ID="{7DC71E54-3413-4992-ADBE-931C8B459B2D}"/>
+												<State Name="" ID="{6576F0A6-9A05-462E-944A-9A86DD07FB1B}" ShortID="591134249"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead2" ID="{392F8116-F95C-4B5E-96A2-E9D6CA1E6A42}"/>
+												<State Name="" ID="{1026B33C-2D6D-4B39-83F3-8C3D9F88A7D3}" ShortID="946006561">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead_OFF" ID="{E01A54C3-E79C-4CC2-A1E1-F7125EC5A5E7}"/>
+												<State Name="" ID="{91C9B555-A6A5-4EFC-8CCF-6DEF67528451}" ShortID="1037578578">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{55EC2DA8-90A0-4967-9BE9-7CD7CAF3036F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{43439C6D-C8F4-49F1-A6D9-E62240833A48}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Lead1" ID="{D7148F64-8143-4BD4-9F29-4DF6983BE778}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Lead1" ID="{DBCB8568-952E-45BB-9355-3E38E3250356}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{988DE4CC-32F6-4B3E-922A-69EC705B9C1D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{BCE20164-6FE2-480A-9DB5-235EEAE793CA}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{4B6E8CF7-DE44-4A6A-9D5B-B8BD4D7417DF}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Lead2" ID="{AA87B60B-8C50-4C47-871A-F1CBF7884BA1}" ShortID="470502750">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="LeadBus" ID="{67D13806-2FB3-42A3-911B-8662DF783BED}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Lead2" ID="{7286519C-C01A-4706-9AE4-C9964AD37364}" ShortID="828924214">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Lead2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="150452045"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Lead_Track" ID="{47B8600C-CFCE-46C5-9E79-236F8A07C1BE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Lead3" ID="{21454B78-799A-44FC-B84B-998C91D706A1}"/>
+												<State Name="" ID="{411DADFD-7E92-4633-89FA-B2DA10B363D7}" ShortID="133401453">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead1" ID="{7DC71E54-3413-4992-ADBE-931C8B459B2D}"/>
+												<State Name="" ID="{7BA98455-1F4B-4493-8BC3-FDE06773BD74}" ShortID="993944948">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead2" ID="{392F8116-F95C-4B5E-96A2-E9D6CA1E6A42}"/>
+												<State Name="" ID="{1BF725DC-A137-4167-8B58-1CF2FB9B15F7}" ShortID="1047124289"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead_OFF" ID="{E01A54C3-E79C-4CC2-A1E1-F7125EC5A5E7}"/>
+												<State Name="" ID="{05433A5B-750D-4729-9141-52CC91693E71}" ShortID="7351">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{15A3E665-CA8D-4D7D-A76B-3E636BAFFB5E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{6D6A253C-26A9-442F-8BEC-7FBFAE5E1E95}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Lead2" ID="{4F0E5A41-0019-4A0C-A44D-70292535CD2E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Lead2" ID="{7286519C-C01A-4706-9AE4-C9964AD37364}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{8E392E97-5853-4A25-A492-496A5699E0EE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{F26C5B81-BCEE-4E93-92B8-99591F723B8A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{432BC414-5F9F-4347-B427-C07808FDA0E2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Lead3" ID="{60EF5C86-315A-433B-85CA-A8D1D675239A}" ShortID="981756548">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="LeadBus" ID="{67D13806-2FB3-42A3-911B-8662DF783BED}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Lead3" ID="{B1E8EEA9-1E6A-4C9A-94D0-3FD35F55863B}" ShortID="177512183">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Lead3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="649974077"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Lead_Track" ID="{47B8600C-CFCE-46C5-9E79-236F8A07C1BE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Lead3" ID="{21454B78-799A-44FC-B84B-998C91D706A1}"/>
+												<State Name="" ID="{69FCC951-FFE7-4DCF-9CDA-DFE9E6D96152}" ShortID="793523705"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead1" ID="{7DC71E54-3413-4992-ADBE-931C8B459B2D}"/>
+												<State Name="" ID="{795107EC-B8D8-47B4-B15A-50820A80D29E}" ShortID="608534052">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead2" ID="{392F8116-F95C-4B5E-96A2-E9D6CA1E6A42}"/>
+												<State Name="" ID="{F2896600-4404-4622-BFCB-093A0BEFF4E7}" ShortID="53262212">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Lead_OFF" ID="{E01A54C3-E79C-4CC2-A1E1-F7125EC5A5E7}"/>
+												<State Name="" ID="{76880654-BCDB-40B7-8C59-DFB2E5805DF6}" ShortID="203632109">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4C9B50EB-03C1-4559-AE29-18AA7AB96358}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{09A4BB3A-B54E-4F24-B764-82E724AAA963}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Lead3" ID="{173EA183-FECC-4111-B9D7-F61613D476B4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Lead3" ID="{B1E8EEA9-1E6A-4C9A-94D0-3FD35F55863B}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{FE76FBC0-FBBD-405F-8346-54D1859CC6E4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{F7EA4F2E-510F-4693-9F20-0F573A157CAE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{12EED171-CD86-4F46-ACEC-F335E1669DB6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Drums1" ID="{B79F0BB6-001B-40F7-AD56-77C537449FB8}" ShortID="290104249">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DrumsBus" ID="{7F28CF7C-0701-4A7D-97EA-67B13CFA890A}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Drums1" ID="{2947DB34-06B2-4595-B395-56162EEB0680}" ShortID="609944920">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Drums1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="313812560"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Drums_Track" ID="{3B5BF6C0-8FB6-43A5-8994-DD824ECE3DA4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Drums2" ID="{059DCD93-56F7-4104-870F-4840AAE4A1D2}"/>
+												<State Name="" ID="{641DEBFC-8DD3-4765-A1D5-A22A80EEBB23}" ShortID="673756337">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums_OFF" ID="{B513AE8D-F979-470F-9655-175430D6CBC1}"/>
+												<State Name="" ID="{F96F106C-43B1-41A5-A5E7-CA71D39683F1}" ShortID="267717400">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums1" ID="{C33AEBBF-27F4-48B8-B88D-49B11C0EBEC9}"/>
+												<State Name="" ID="{B7718CF4-BA73-431E-B831-FEEACA03AAFB}" ShortID="523884954"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums3" ID="{10D68C83-28E2-4C93-8D4E-F337275D33A1}"/>
+												<State Name="" ID="{C4379B9C-5EA3-41D8-AACB-B1054648E8DC}" ShortID="421429727">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D8032BF3-A840-4FAB-AFCE-4221CCEE766B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F18FD3A8-D107-424E-BFBA-71CE592985B3}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Drums1" ID="{0C0F87D7-EA4C-4435-BBC8-8733E42A866E}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Drums1" ID="{2947DB34-06B2-4595-B395-56162EEB0680}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{0261182E-AE58-48F7-B636-73086EE8D08E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{6CCDD10A-4708-4A3D-9617-81F7811DFAA9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{0014B38A-BF7B-4EB6-8215-5100BB3183A9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Drums3" ID="{1591EC85-5798-4D26-99D4-33B3D05506F8}" ShortID="626478106">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DrumsBus" ID="{7F28CF7C-0701-4A7D-97EA-67B13CFA890A}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Drums3" ID="{352244BE-BD61-48C0-A84A-0E9396173F01}" ShortID="454051538">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Drums3.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="734621839"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Drums_Track" ID="{3B5BF6C0-8FB6-43A5-8994-DD824ECE3DA4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Drums2" ID="{059DCD93-56F7-4104-870F-4840AAE4A1D2}"/>
+												<State Name="" ID="{1DFB2486-0447-4ACA-887F-ABE395CFD5E9}" ShortID="261889532">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums_OFF" ID="{B513AE8D-F979-470F-9655-175430D6CBC1}"/>
+												<State Name="" ID="{68BEE2C6-7FE6-41E4-95DD-5D420D85EA76}" ShortID="142603779">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums1" ID="{C33AEBBF-27F4-48B8-B88D-49B11C0EBEC9}"/>
+												<State Name="" ID="{C48B11E7-9BAA-40E4-B45E-BB39134AE3C6}" ShortID="382882186">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums3" ID="{10D68C83-28E2-4C93-8D4E-F337275D33A1}"/>
+												<State Name="" ID="{F36C996E-C170-4AFC-866D-BA4020A128EB}" ShortID="702739692"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{D602D590-88A8-4DBF-A960-8B0C8B0E95DE}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{752529BB-C60D-4919-B395-197505448168}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Drums3" ID="{AB705178-C1F0-40F8-B95E-18479A5E0E56}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Drums3" ID="{352244BE-BD61-48C0-A84A-0E9396173F01}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{D37885D2-A5A4-438D-9859-E49F1D124483}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{CF7AB263-DA78-451A-A3A2-B174995C32BB}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{7A4754D3-A98F-4277-B99C-948DEF200757}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Arkryas_Drums2" ID="{C0554155-FE1F-4330-BA6F-1B0B8BA0DD5F}" ShortID="75998018">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DrumsBus" ID="{7F28CF7C-0701-4A7D-97EA-67B13CFA890A}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Arkryas_Drums2" ID="{F6E9AF20-7317-42BB-8CF8-CD9AED86EAB4}" ShortID="550072652">
+											<Language>SFX</Language>
+											<AudioFile>Arkryas_Drums2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="237308405"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Arkryas_Drums_Track" ID="{3B5BF6C0-8FB6-43A5-8994-DD824ECE3DA4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="A_Drums2" ID="{059DCD93-56F7-4104-870F-4840AAE4A1D2}"/>
+												<State Name="" ID="{DA62F43C-557F-4E9E-9FDB-B1BFCCBF48A6}" ShortID="733832523"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums_OFF" ID="{B513AE8D-F979-470F-9655-175430D6CBC1}"/>
+												<State Name="" ID="{627F6373-04C0-4EE8-A762-A9754AF492E0}" ShortID="731120521">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums1" ID="{C33AEBBF-27F4-48B8-B88D-49B11C0EBEC9}"/>
+												<State Name="" ID="{6F07D12D-6BC3-41AA-881E-64D9836ACCD8}" ShortID="894240602">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="A_Drums3" ID="{10D68C83-28E2-4C93-8D4E-F337275D33A1}"/>
+												<State Name="" ID="{DECECA9C-A219-49DC-AA32-1A0F80576383}" ShortID="681643191">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EA283195-81A9-4CA5-A55A-D4CB5CFE02DA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{0FD0E7D9-8655-4797-934A-A02B4F5E5E0B}">
+											<ClipList>
+												<MusicClip Name="Arkryas_Drums2" ID="{0CBF7D3E-83E7-4EFA-9487-FEAD6336892F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Arkryas_Drums2" ID="{F6E9AF20-7317-42BB-8CF8-CD9AED86EAB4}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{44C47B21-FEFA-4500-A6FD-34D191451F75}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{CED880A7-38E8-4BC6-8D14-23F0E283E85E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{8971F5EE-FE05-429A-83EB-C036DBBAA49B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Neutral_Beat2" ID="{AABDC3E7-F9EE-434C-8107-685607820A02}" ShortID="46658297">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="NeutralBeat2" ID="{A46382D7-E26A-4462-90AA-258A37889CAA}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Neutral_Beat2" ID="{5DD86247-067D-42BE-8450-3C35F7820D67}" ShortID="342813536">
+											<Language>SFX</Language>
+											<AudioFile>Neutral_Beat2.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="29955595"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="NeutralBeat" ID="{E671FD70-D15B-42F4-8DC0-398659A0057F}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="HasNotReachedLevel3" ID="{A36065B9-CA82-421A-9B62-8709CE3A565B}"/>
+												<State Name="" ID="{3A97A85C-12EE-4C8D-9B0F-8070D82C4243}" ShortID="964125283">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="HasReachedLevel3" ID="{8F9F004D-D0B6-4FE0-BD44-23BAB36167B7}"/>
+												<State Name="" ID="{5633C5EB-AA8A-4EB8-A859-AD1ECCD44E68}" ShortID="183291552"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{4538072C-2BA8-4DCA-9CC9-5D1D6A028900}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4E36DC71-00CD-416C-B1B3-CEF6E75B530A}">
+											<ClipList>
+												<MusicClip Name="Neutral_Beat2" ID="{EB7A3F96-AD93-41F8-A4C4-584B05E2C6CE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Neutral_Beat2" ID="{5DD86247-067D-42BE-8450-3C35F7820D67}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Neutral_Beat1" ID="{0464DD60-B878-474C-9E97-D48F171002EC}" ShortID="261449613">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{ABCCEC22-6177-4731-BB6D-6B4FBE259DBB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="NeutralBeat1" ID="{2AD39D42-69BC-43D4-881A-56C63198FAE0}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="NeutralBeat_Stage1" ID="{6206AF6B-2E09-438A-995C-2B4968BB90C5}" ShortID="478307854">
+											<Language>SFX</Language>
+											<AudioFile>NeutralBeat_Stage1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="337625368"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{F5A1A38E-69CE-4931-BE25-C69B6035A6F3}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{746B7A5E-E06B-4AE4-A42D-2CB396280557}">
+											<ClipList>
+												<MusicClip Name="NeutralBeat_Stage1" ID="{AC6BCDAA-BCB6-4DA5-A4B2-9E883F019727}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="NeutralBeat_Stage1" ID="{6206AF6B-2E09-438A-995C-2B4968BB90C5}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{F7AE5A30-AAEB-456D-9926-56E23833CF2E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{8BF83AB7-7DBE-4BD8-9DAE-B48103B16654}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{7220D012-C5AA-44DE-84C5-52CC3BBE228F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>12.8</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Bass1" ID="{941FC66D-954C-44A8-A952-A15057E5102B}" ShortID="406659494">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="BassBus" ID="{44BF59C2-EB5C-4ECA-8111-B24687AF8226}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Bass1" ID="{C2DBF302-A04F-414F-832C-9EA2027748BC}" ShortID="420083011">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Bass1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Nethmi_Bass_Track" ID="{517AC511-70FB-4688-A565-55ECED36015A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Bass_OFF" ID="{DB76C574-B34E-4091-A672-A34C60C25528}"/>
+												<State Name="" ID="{C281C298-EE5F-4FA6-B38B-97EE54968F62}" ShortID="841980919">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass1" ID="{725BB1FA-BECE-461E-8F2E-2A1F317B204E}"/>
+												<State Name="" ID="{79842D7D-A6F7-406B-8214-97B81534B11D}" ShortID="236686247"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass3" ID="{C224ADEE-E172-4A6D-95AB-BF302C7C5484}"/>
+												<State Name="" ID="{964EC47D-B397-4673-AAED-7AAEB5E9E007}" ShortID="577968871">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass2" ID="{6A7BB044-F061-4CAD-AEA2-70AC4146FB26}"/>
+												<State Name="" ID="{633D87BB-8934-4451-A00F-2CABF2084170}" ShortID="68856472">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{9CA7337A-441E-48CF-A4E7-50D2594CB585}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{AFF95B1A-D727-4646-804A-B73F11037520}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Bass1" ID="{D86C0975-73F3-40CE-A706-873A5867ACE4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Bass1" ID="{C2DBF302-A04F-414F-832C-9EA2027748BC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Bass2" ID="{28D4C32A-66E3-4B9F-8B1F-0CE17F082122}" ShortID="261348636">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="BassBus" ID="{44BF59C2-EB5C-4ECA-8111-B24687AF8226}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Bass2" ID="{EC31A27C-5872-4EC7-A9A4-ABCA2EEF5DE9}" ShortID="930887733">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Bass2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Nethmi_Bass_Track" ID="{517AC511-70FB-4688-A565-55ECED36015A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Bass_OFF" ID="{DB76C574-B34E-4091-A672-A34C60C25528}"/>
+												<State Name="" ID="{7614B580-F814-4FFA-B07F-51E247CA58E9}" ShortID="600562156">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass1" ID="{725BB1FA-BECE-461E-8F2E-2A1F317B204E}"/>
+												<State Name="" ID="{0ACFC31D-C8E7-4FE3-BEDD-6AF504D10389}" ShortID="616141708">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass3" ID="{C224ADEE-E172-4A6D-95AB-BF302C7C5484}"/>
+												<State Name="" ID="{AE394338-2071-4624-8364-7B7EDDD374F4}" ShortID="524562738">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass2" ID="{6A7BB044-F061-4CAD-AEA2-70AC4146FB26}"/>
+												<State Name="" ID="{2072247C-FFD1-4A2A-8E40-3CF152336063}" ShortID="424931132"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DA797054-2414-4249-90CD-790C771700E2}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{E2A33C20-66EA-4CE3-83AB-08C53694D3F0}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Bass2" ID="{C423354A-E1F1-490A-946E-7013D86F2969}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Bass2" ID="{EC31A27C-5872-4EC7-A9A4-ABCA2EEF5DE9}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Bass3" ID="{AD8529BB-D850-41FF-B190-674379C555AC}" ShortID="177917390">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="BassBus" ID="{44BF59C2-EB5C-4ECA-8111-B24687AF8226}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Bass3" ID="{CC36FE90-E713-40BD-97D1-FACB903ACA54}" ShortID="1003674847">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Bass3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Bass_Track" ID="{517AC511-70FB-4688-A565-55ECED36015A}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Bass_OFF" ID="{DB76C574-B34E-4091-A672-A34C60C25528}"/>
+												<State Name="" ID="{527D7EEF-AEAF-472C-B36A-4FC6C032B900}" ShortID="403399474">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass1" ID="{725BB1FA-BECE-461E-8F2E-2A1F317B204E}"/>
+												<State Name="" ID="{9EE67251-F97B-45B6-B6AF-7E1CAF850919}" ShortID="956088796">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass3" ID="{C224ADEE-E172-4A6D-95AB-BF302C7C5484}"/>
+												<State Name="" ID="{7D4ED519-44F4-43A2-A60E-2380F5D73F06}" ShortID="412834587"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Bass2" ID="{6A7BB044-F061-4CAD-AEA2-70AC4146FB26}"/>
+												<State Name="" ID="{977783FE-F1FC-445C-BE06-8D5A2EE3FDE4}" ShortID="686306368">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{726EB673-BEB8-473C-B660-FD8C804FDEBA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8FD6A370-45BF-4960-879A-C84ED9F6EE71}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Bass3" ID="{D9B1325E-64A3-4EAB-9358-250AD89BAA4A}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Bass3" ID="{CC36FE90-E713-40BD-97D1-FACB903ACA54}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Chords1" ID="{281E4B17-E15B-4626-B088-41648E51688C}" ShortID="129636731">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ChordsBus" ID="{625E88CD-AB5E-4989-9F21-6E24C6258FF4}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Chords1" ID="{B65C46BE-4987-4140-B98C-50A7F0CAAAF1}" ShortID="777290174">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Chords1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="Nethmi_Chords_Track" ID="{D675DAF8-4B29-4AC6-83C5-E5030B1BE787}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Chords3" ID="{202E3973-AAF2-4927-96F1-48450AB59691}"/>
+												<State Name="" ID="{5667BC22-0E2B-40C5-ADF4-E7E731948765}" ShortID="841618573">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords1" ID="{5689DE8B-2530-4DB7-914A-89C973233F36}"/>
+												<State Name="" ID="{33575C78-E4FF-4E6E-9307-9E4E1F69FF99}" ShortID="7194403"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords2" ID="{7B28675A-F9D0-4E4B-9C1C-0355B850B954}"/>
+												<State Name="" ID="{E228677B-2C07-4F55-B5F6-6A5FBA07E334}" ShortID="61040192">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords_OFF" ID="{A169DFE6-0EA6-4FA1-BB68-7827E9A456F7}"/>
+												<State Name="" ID="{A941DC7C-4EE6-40B9-94F9-6539C96DE2A9}" ShortID="941805249">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{14D11508-4192-4859-B400-873B6433E7A0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{CC6436B6-7E77-40BC-B595-85D793206FA5}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Chords1" ID="{E6FEFE3D-9F3E-4089-9ED1-F4EFED767F89}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Chords1" ID="{B65C46BE-4987-4140-B98C-50A7F0CAAAF1}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Chords2" ID="{6C57F7F0-3AAC-421D-AF41-4DCE2C7BA164}" ShortID="1047488969">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ChordsBus" ID="{625E88CD-AB5E-4989-9F21-6E24C6258FF4}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Chords2" ID="{F1EC51DA-BC92-47E1-B960-8C2F07092328}" ShortID="840337391">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Chords2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Chords_Track" ID="{D675DAF8-4B29-4AC6-83C5-E5030B1BE787}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Chords3" ID="{202E3973-AAF2-4927-96F1-48450AB59691}"/>
+												<State Name="" ID="{4AC931DF-A68F-4057-89DA-CA7203548B0C}" ShortID="756994936">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords1" ID="{5689DE8B-2530-4DB7-914A-89C973233F36}"/>
+												<State Name="" ID="{EB6A917B-1129-46DA-9033-D82828257EE9}" ShortID="449752577">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords2" ID="{7B28675A-F9D0-4E4B-9C1C-0355B850B954}"/>
+												<State Name="" ID="{F958DE53-F4C2-4262-BF36-605D9DC3AAA9}" ShortID="952173437"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords_OFF" ID="{A169DFE6-0EA6-4FA1-BB68-7827E9A456F7}"/>
+												<State Name="" ID="{8DE68009-C056-41BC-AE8E-8B56C7C628E3}" ShortID="526983954">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{608A9FDB-4FF1-41EC-A24C-71A02E53AD96}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{45C725F1-F3FF-4492-B705-C49CFCBB021C}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Chords2" ID="{EBC02815-AA9C-4195-A840-E2CEE4F6811F}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Chords2" ID="{F1EC51DA-BC92-47E1-B960-8C2F07092328}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Chords3" ID="{32BFA909-2174-4F26-A1C9-3394B1D7864F}" ShortID="192725730">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="ChordsBus" ID="{625E88CD-AB5E-4989-9F21-6E24C6258FF4}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Chords3" ID="{A23927B0-79D0-4D2B-B7F6-EB4175216D45}" ShortID="946128186">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Chords3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Chords_Track" ID="{D675DAF8-4B29-4AC6-83C5-E5030B1BE787}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Chords3" ID="{202E3973-AAF2-4927-96F1-48450AB59691}"/>
+												<State Name="" ID="{19F0DD03-2023-47ED-90CD-02BB6E25C779}" ShortID="1047870980"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords1" ID="{5689DE8B-2530-4DB7-914A-89C973233F36}"/>
+												<State Name="" ID="{DEE0D436-6655-4A52-BA38-E2B60C56F92C}" ShortID="1071639139">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords2" ID="{7B28675A-F9D0-4E4B-9C1C-0355B850B954}"/>
+												<State Name="" ID="{3707DDA9-62BA-4CF5-AEAB-FC8F4904A4B6}" ShortID="489863115">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Chords_OFF" ID="{A169DFE6-0EA6-4FA1-BB68-7827E9A456F7}"/>
+												<State Name="" ID="{89A38581-ADDC-442A-8D85-FC6176588463}" ShortID="166098012">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2B36EF86-D55D-415E-BAC5-09684DD2E6C0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{99E21A4C-581A-4AF2-89EC-B44B0A3F055E}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Chords3" ID="{457C63C4-F4DC-4E92-9F61-29C9E304AC72}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Chords3" ID="{A23927B0-79D0-4D2B-B7F6-EB4175216D45}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Drums1" ID="{B5DD7283-BCB7-4A11-8AF6-6A19D22DECC2}" ShortID="581184746">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DrumsBus" ID="{7F28CF7C-0701-4A7D-97EA-67B13CFA890A}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Drums1" ID="{517DE00B-D24D-4E8F-83BE-30272DC125E5}" ShortID="239294676">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Drums1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Drums_Track" ID="{8125F04E-4DD5-4488-ACD0-EC507F4D94C4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Drums2" ID="{61DD2286-385B-4227-BEA7-EB82D3309F63}"/>
+												<State Name="" ID="{D2691122-9B3C-45B7-AC5E-E431BF9CD795}" ShortID="942423706">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums3" ID="{56887F33-B160-4382-98C5-33CBB14B4300}"/>
+												<State Name="" ID="{6F8A3956-F3FE-4331-8993-3BCB9FE22BD7}" ShortID="1010379023">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums1" ID="{CB09E5EB-C48A-48DF-8817-1610DA2AF191}"/>
+												<State Name="" ID="{1F752431-703B-4AB2-A393-62EF9734E49B}" ShortID="735390040"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums_OFF" ID="{53C7F377-3342-4964-8DCB-1247AF951C67}"/>
+												<State Name="" ID="{715A517C-8DE0-415E-91BC-8210DB843416}" ShortID="448773144">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{254B9F4C-34F6-4449-80D6-42FD963EBD07}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{10300C64-D61D-459F-8330-4253C37C3633}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Drums1" ID="{7A64886B-EA9D-44A7-B428-4D4E6E6F2F15}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Drums1" ID="{517DE00B-D24D-4E8F-83BE-30272DC125E5}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Drums2" ID="{717DF5D4-7CF3-4DFB-983F-65EF4C53C07A}" ShortID="684553250">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DrumsBus" ID="{7F28CF7C-0701-4A7D-97EA-67B13CFA890A}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Drums2" ID="{07B12A67-831E-440B-B1E7-34A1BE93C38C}" ShortID="380030715">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Drums2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Drums_Track" ID="{8125F04E-4DD5-4488-ACD0-EC507F4D94C4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Drums2" ID="{61DD2286-385B-4227-BEA7-EB82D3309F63}"/>
+												<State Name="" ID="{3D8013CC-A4BE-4E99-8638-1652167E6833}" ShortID="500468315"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums3" ID="{56887F33-B160-4382-98C5-33CBB14B4300}"/>
+												<State Name="" ID="{980F3885-523E-4CD8-BCC9-79A1510097B3}" ShortID="708061980">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums1" ID="{CB09E5EB-C48A-48DF-8817-1610DA2AF191}"/>
+												<State Name="" ID="{2B83DAF4-9069-4AB8-9B17-6AA30BE1A546}" ShortID="465513527">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums_OFF" ID="{53C7F377-3342-4964-8DCB-1247AF951C67}"/>
+												<State Name="" ID="{424151CE-A53E-4C5E-8320-AF36394CF06D}" ShortID="963886603">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A83B8388-929C-49B2-B0A6-B9FBA0D80E67}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{BD665BA6-1C1D-4603-9530-85C32D2A3DEA}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Drums2" ID="{64D7F6AE-F4A0-4B50-A9FB-890F013D90A0}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Drums2" ID="{07B12A67-831E-440B-B1E7-34A1BE93C38C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Drums3" ID="{CF60503D-FF2F-48FC-A70B-E3BCD62844E1}" ShortID="1015960750">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="DrumsBus" ID="{7F28CF7C-0701-4A7D-97EA-67B13CFA890A}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Drums3" ID="{680B8902-23BC-416E-9531-17A5110C6990}" ShortID="490190797">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Drums3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Drums_Track" ID="{8125F04E-4DD5-4488-ACD0-EC507F4D94C4}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Drums2" ID="{61DD2286-385B-4227-BEA7-EB82D3309F63}"/>
+												<State Name="" ID="{9E5A0839-6FED-4B4B-875F-8EAC3325951E}" ShortID="14894283">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums3" ID="{56887F33-B160-4382-98C5-33CBB14B4300}"/>
+												<State Name="" ID="{B2571049-4822-454C-B0DB-5658277A9D5D}" ShortID="133598477"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums1" ID="{CB09E5EB-C48A-48DF-8817-1610DA2AF191}"/>
+												<State Name="" ID="{33A599E4-30EF-44C4-BB17-569B489CAC3A}" ShortID="128731248">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Drums_OFF" ID="{53C7F377-3342-4964-8DCB-1247AF951C67}"/>
+												<State Name="" ID="{08D2DCB9-3D14-40C7-80BE-393316331D3B}" ShortID="17160288">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{77B8CBC3-06D6-43A8-AE38-212215B2B1EA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{EDA63720-1BC3-451A-9237-78F3AF93AC46}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Drums3" ID="{0DC09523-F35B-458F-B418-BF52C86B6219}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Drums3" ID="{680B8902-23BC-416E-9531-17A5110C6990}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Lead1" ID="{E214D9E0-B3CF-410E-BB00-D062397DD568}" ShortID="56329914">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="LeadBus" ID="{67D13806-2FB3-42A3-911B-8662DF783BED}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Lead1" ID="{FCDA2CB4-0EB0-4B6B-8343-2F274EAB61C8}" ShortID="147299552">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Lead1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Lead_Track" ID="{56B14FE8-D3F2-4F76-B2BC-197CAE384EDF}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Lead2" ID="{D5E31A95-E203-4639-B877-52ED88E9867F}"/>
+												<State Name="" ID="{4AD4AE8C-930C-408B-B186-586EF50479E8}" ShortID="509707168">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead_OFF" ID="{1FF2B70D-7A86-487A-A88C-8AB09D9F013F}"/>
+												<State Name="" ID="{73E2A7D0-D6EA-4506-8485-AC1A05B20B83}" ShortID="847953454">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead1" ID="{0B61F067-0AFD-49B0-ADB7-A5F3D1CFB6A2}"/>
+												<State Name="" ID="{4A6F568C-5FF1-4971-9418-1E7916D78010}" ShortID="404781365"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead3" ID="{D959A493-9B9D-4E3A-BCF8-E13452B043AB}"/>
+												<State Name="" ID="{58127D7B-EFEC-41D7-BF69-C4E9DFD62350}" ShortID="81690763">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{ADB1251E-A580-4618-87BA-F34CAC6B1D63}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{678FB424-5CE5-429C-B8C5-DD8BD27A983B}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Lead1" ID="{67DBFC15-A60E-40E7-BA34-726CC70207A4}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Lead1" ID="{FCDA2CB4-0EB0-4B6B-8343-2F274EAB61C8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Lead2" ID="{63E97DB2-5A01-4732-98F1-855057727598}" ShortID="613747715">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="LeadBus" ID="{67D13806-2FB3-42A3-911B-8662DF783BED}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Lead2" ID="{E4067E78-E748-464F-9167-BF6A4DFD9EE8}" ShortID="384286088">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Lead2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Lead_Track" ID="{56B14FE8-D3F2-4F76-B2BC-197CAE384EDF}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Lead2" ID="{D5E31A95-E203-4639-B877-52ED88E9867F}"/>
+												<State Name="" ID="{36417421-9397-4585-A6D1-2C3CC58EB2B0}" ShortID="489126092"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead_OFF" ID="{1FF2B70D-7A86-487A-A88C-8AB09D9F013F}"/>
+												<State Name="" ID="{7EF91CCB-58A3-4F49-9E7E-5E533257530B}" ShortID="558598520">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead1" ID="{0B61F067-0AFD-49B0-ADB7-A5F3D1CFB6A2}"/>
+												<State Name="" ID="{7485F438-6A96-455B-A73A-08EF30AF9672}" ShortID="557270562">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead3" ID="{D959A493-9B9D-4E3A-BCF8-E13452B043AB}"/>
+												<State Name="" ID="{CBC4C7F0-7CFF-49DC-9B96-AA2780AAFFEE}" ShortID="1022220478">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{E55991A5-C9A2-47A5-AF63-4E4AE866C520}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F056D311-8CAC-4B04-B929-500FF9EC46AF}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Lead2" ID="{9FB4C395-D3F5-45D3-8C6C-E6B274428BD2}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Lead2" ID="{E4067E78-E748-464F-9167-BF6A4DFD9EE8}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="Nethmi_Lead3" ID="{EEA5C6F5-D94D-4A62-8FDF-921D2EC795E3}" ShortID="1001461515">
+									<PropertyList>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="LeadBus" ID="{67D13806-2FB3-42A3-911B-8662DF783BED}" WorkUnitID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nethmi_Lead3" ID="{2BE5B0DF-B8CF-4656-A524-9DFD62ED6BA4}" ShortID="187011840">
+											<Language>SFX</Language>
+											<AudioFile>Nethmi_Lead3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Nethmi_Lead_Track" ID="{56B14FE8-D3F2-4F76-B2BC-197CAE384EDF}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="N_Lead2" ID="{D5E31A95-E203-4639-B877-52ED88E9867F}"/>
+												<State Name="" ID="{FD7B33AB-E8C4-42E8-9265-96213A14ECEC}" ShortID="218947523">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead_OFF" ID="{1FF2B70D-7A86-487A-A88C-8AB09D9F013F}"/>
+												<State Name="" ID="{DCDEE54F-D210-4C0C-800F-338D8473F18C}" ShortID="926988965">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead1" ID="{0B61F067-0AFD-49B0-ADB7-A5F3D1CFB6A2}"/>
+												<State Name="" ID="{B1452A40-0779-4589-BA65-0DA2BC344C03}" ShortID="287623678">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="N_Lead3" ID="{D959A493-9B9D-4E3A-BCF8-E13452B043AB}"/>
+												<State Name="" ID="{39507814-B2A6-4591-9757-C3154EB9967D}" ShortID="360059893"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{EEA07E1A-2C98-4DC3-886A-014881D40F0E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A0E9C643-C68A-4CDB-A6CE-C1DFB90C16CC}">
+											<ClipList>
+												<MusicClip Name="Nethmi_Lead3" ID="{A7B8DC1E-42B8-440F-9EF3-A3C14A087D04}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="12800"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nethmi_Lead3" ID="{2BE5B0DF-B8CF-4656-A524-9DFD62ED6BA4}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{ED8AB8C9-262A-49A8-8F94-CEDC8D1D77CE}"/>
+								<MusicCue Name="Exit Cue" ID="{AA959C17-6630-4370-A2A0-68AD3B24CBF8}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="12800"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{03F8B699-31A9-45CC-AEEE-638950D52854}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{D851A213-5B6D-43C3-A59D-FBC968CAB4D4}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{1AC70705-8B34-4E7E-9719-2E2B6225DB7B}" ShortID="1038018847">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{B5D9D5BC-A499-4229-BE9A-947D63A99F4C}" ShortID="702243406">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Music" ID="{13DDD0BB-CC56-41D3-88F9-2312DC0F9A06}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

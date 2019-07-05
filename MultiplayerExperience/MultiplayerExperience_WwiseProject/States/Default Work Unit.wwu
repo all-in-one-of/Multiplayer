@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4ED9D389-A393-4194-8BF8-222435AE0CB2}" SchemaVersion="89">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{4ED9D389-A393-4194-8BF8-222435AE0CB2}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Arkryas_Drums_Track" ID="{3B5BF6C0-8FB6-43A5-8994-DD824ECE3DA4}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{DF4BB605-C4FF-4266-AB67-03A9631C9D08}"/>
+						<State Name="A_Drums1" ID="{C33AEBBF-27F4-48B8-B88D-49B11C0EBEC9}"/>
+						<State Name="A_Drums2" ID="{059DCD93-56F7-4104-870F-4840AAE4A1D2}"/>
+						<State Name="A_Drums3" ID="{10D68C83-28E2-4C93-8D4E-F337275D33A1}"/>
+						<State Name="A_Drums_OFF" ID="{B513AE8D-F979-470F-9655-175430D6CBC1}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="NeutralBeat" ID="{E671FD70-D15B-42F4-8DC0-398659A0057F}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.1"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{63314A34-C47E-498F-8348-95437FFF022E}"/>
+						<State Name="HasReachedLevel3" ID="{8F9F004D-D0B6-4FE0-BD44-23BAB36167B7}"/>
+						<State Name="HasNotReachedLevel3" ID="{A36065B9-CA82-421A-9B62-8709CE3A565B}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Arkryas_Lead_Track" ID="{47B8600C-CFCE-46C5-9E79-236F8A07C1BE}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{07107E14-7C1C-47D9-82A5-D9D4C34D3EAC}"/>
+						<State Name="A_Lead1" ID="{7DC71E54-3413-4992-ADBE-931C8B459B2D}"/>
+						<State Name="A_Lead2" ID="{392F8116-F95C-4B5E-96A2-E9D6CA1E6A42}"/>
+						<State Name="A_Lead3" ID="{21454B78-799A-44FC-B84B-998C91D706A1}"/>
+						<State Name="A_Lead_OFF" ID="{E01A54C3-E79C-4CC2-A1E1-F7125EC5A5E7}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Arkryas_Chords_Track" ID="{C191F837-3EC5-414B-906D-48ADAA795DAB}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{D53EF655-834C-4BDA-928F-D5CBE915CD82}"/>
+						<State Name="A_Chords1" ID="{4E4A53CA-E26C-45FA-BB7F-57C87F3027C3}"/>
+						<State Name="A_Chords2" ID="{EAE7CA7A-700D-462C-B4F5-67F3F9C04FE1}"/>
+						<State Name="A_Chords3" ID="{176B4734-D9FE-4526-8E1A-B9AB51843804}"/>
+						<State Name="A_Chords_OFF" ID="{293BC129-E5F9-4DB1-B928-7841F87165A4}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Arkryas_Bass_Track" ID="{194AD95A-0D24-4852-8415-981280D4FDE3}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{31129247-16EE-4C2D-AD6B-5761527A410F}"/>
+						<State Name="A_Bass1" ID="{4EBDAD2C-74C0-45B5-9386-DE52F76A4E48}"/>
+						<State Name="A_Bass2" ID="{D3F6F3D9-9D1F-4167-AE12-A92248E3926C}"/>
+						<State Name="A_Bass3" ID="{BB6E32D8-1F20-42C9-82D7-3FA5C6F33646}"/>
+						<State Name="A_Bass_OFF" ID="{61C45839-10F9-44C8-9526-9730C2E805DF}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Nethmi_Bass_Track" ID="{517AC511-70FB-4688-A565-55ECED36015A}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{CC22E0FF-26D6-4307-9AB3-07C92F55D368}"/>
+						<State Name="N_Bass1" ID="{725BB1FA-BECE-461E-8F2E-2A1F317B204E}"/>
+						<State Name="N_Bass2" ID="{6A7BB044-F061-4CAD-AEA2-70AC4146FB26}"/>
+						<State Name="N_Bass3" ID="{C224ADEE-E172-4A6D-95AB-BF302C7C5484}"/>
+						<State Name="N_Bass_OFF" ID="{DB76C574-B34E-4091-A672-A34C60C25528}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Nethmi_Chords_Track" ID="{D675DAF8-4B29-4AC6-83C5-E5030B1BE787}">
+					<ChildrenList>
+						<State Name="None" ID="{1F44466C-8654-4228-A3E2-BB2A22856362}"/>
+						<State Name="N_Chords_OFF" ID="{A169DFE6-0EA6-4FA1-BB68-7827E9A456F7}"/>
+						<State Name="N_Chords1" ID="{5689DE8B-2530-4DB7-914A-89C973233F36}"/>
+						<State Name="N_Chords2" ID="{7B28675A-F9D0-4E4B-9C1C-0355B850B954}"/>
+						<State Name="N_Chords3" ID="{202E3973-AAF2-4927-96F1-48450AB59691}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Nethmi_Drums_Track" ID="{8125F04E-4DD5-4488-ACD0-EC507F4D94C4}">
+					<ChildrenList>
+						<State Name="None" ID="{2709F37B-63D0-469B-A32C-9F4F448CC2C3}"/>
+						<State Name="N_Drums1" ID="{CB09E5EB-C48A-48DF-8817-1610DA2AF191}"/>
+						<State Name="N_Drums2" ID="{61DD2286-385B-4227-BEA7-EB82D3309F63}"/>
+						<State Name="N_Drums3" ID="{56887F33-B160-4382-98C5-33CBB14B4300}"/>
+						<State Name="N_Drums_OFF" ID="{53C7F377-3342-4964-8DCB-1247AF951C67}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Nethmi_Lead_Track" ID="{56B14FE8-D3F2-4F76-B2BC-197CAE384EDF}">
+					<ChildrenList>
+						<State Name="None" ID="{74058F44-33E9-4F11-AB32-D8A119953542}"/>
+						<State Name="N_Lead1" ID="{0B61F067-0AFD-49B0-ADB7-A5F3D1CFB6A2}"/>
+						<State Name="N_Lead2" ID="{D5E31A95-E203-4639-B877-52ED88E9867F}"/>
+						<State Name="N_Lead3" ID="{D959A493-9B9D-4E3A-BCF8-E13452B043AB}"/>
+						<State Name="N_Lead_OFF" ID="{1FF2B70D-7A86-487A-A88C-8AB09D9F013F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

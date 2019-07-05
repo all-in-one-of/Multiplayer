@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>/Users/edwardfokkema/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Music/Sound Junk/Work/VisoSpace/multiplayerexperience/MultiplayerExperience/MultiplayerExperience_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/edwardfokkema/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Music/Sound Junk/Work/VisoSpace/multiplayerexperience/MultiplayerExperience/MultiplayerExperience_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/edwardfokkema/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Music/Sound Junk/Work/VisoSpace/multiplayerexperience/MultiplayerExperience/MultiplayerExperience_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/edwardfokkema/Library/Application Support/Wwise2018/Bottles/wwise/dosdevices/y:/Music/Sound Junk/Work/VisoSpace/multiplayerexperience/MultiplayerExperience/MultiplayerExperience_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4012389634" Name="Grid_Captured" ObjectPath="\Events\Default Work Unit\Grid_Captured" MaxAttenuation="100.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="369681474" Language="SFX">
+					<ShortName>GridSpatialTest_MONO.wav</ShortName>
+					<Path>SFX/GridSpatialTest_MONO_8956FC97.wem</Path>
+				</File>
+				<File Id="723921265" Language="SFX">
+					<ShortName>GridCaptureTest_MONO.wav</ShortName>
+					<Path>SFX/GridCaptureTest_MONO_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="417627684" Name="PlayMusic" ObjectPath="\Events\Default Work Unit\PlayMusic"/>
+				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="29955595" Language="SFX">
+					<ShortName>Neutral_Beat2.wav</ShortName>
+					<Path>SFX/Neutral_Beat2_8956FC97.wem</Path>
+				</File>
+				<File Id="147299552" Language="SFX">
+					<ShortName>Nethmi_Lead1.wav</ShortName>
+					<Path>SFX/Nethmi_Lead1_8956FC97.wem</Path>
+				</File>
+				<File Id="150452045" Language="SFX">
+					<ShortName>Arkryas_Lead2.wav</ShortName>
+					<Path>SFX/Arkryas_Lead2_8956FC97.wem</Path>
+				</File>
+				<File Id="187011840" Language="SFX">
+					<ShortName>Nethmi_Lead3.wav</ShortName>
+					<Path>SFX/Nethmi_Lead3_8956FC97.wem</Path>
+				</File>
+				<File Id="204230784" Language="SFX">
+					<ShortName>Arkryas_Bass1.wav</ShortName>
+					<Path>SFX/Arkryas_Bass1_8956FC97.wem</Path>
+				</File>
+				<File Id="237308405" Language="SFX">
+					<ShortName>Arkryas_Drums2.wav</ShortName>
+					<Path>SFX/Arkryas_Drums2_8956FC97.wem</Path>
+				</File>
+				<File Id="239294676" Language="SFX">
+					<ShortName>Nethmi_Drums1.wav</ShortName>
+					<Path>SFX/Nethmi_Drums1_8956FC97.wem</Path>
+				</File>
+				<File Id="313812560" Language="SFX">
+					<ShortName>Arkryas_Drums1.wav</ShortName>
+					<Path>SFX/Arkryas_Drums1_8956FC97.wem</Path>
+				</File>
+				<File Id="337625368" Language="SFX">
+					<ShortName>NeutralBeat_Stage1.wav</ShortName>
+					<Path>SFX/NeutralBeat_Stage1_8956FC97.wem</Path>
+				</File>
+				<File Id="380030715" Language="SFX">
+					<ShortName>Nethmi_Drums2.wav</ShortName>
+					<Path>SFX/Nethmi_Drums2_8956FC97.wem</Path>
+				</File>
+				<File Id="384286088" Language="SFX">
+					<ShortName>Nethmi_Lead2.wav</ShortName>
+					<Path>SFX/Nethmi_Lead2_8956FC97.wem</Path>
+				</File>
+				<File Id="420083011" Language="SFX">
+					<ShortName>Nethmi_Bass1.wav</ShortName>
+					<Path>SFX/Nethmi_Bass1_8956FC97.wem</Path>
+				</File>
+				<File Id="431905453" Language="SFX">
+					<ShortName>Arkryas_Lead1.wav</ShortName>
+					<Path>SFX/Arkryas_Lead1_8956FC97.wem</Path>
+				</File>
+				<File Id="490190797" Language="SFX">
+					<ShortName>Nethmi_Drums3.wav</ShortName>
+					<Path>SFX/Nethmi_Drums3_8956FC97.wem</Path>
+				</File>
+				<File Id="530057972" Language="SFX">
+					<ShortName>Arkryas_Bass2.wav</ShortName>
+					<Path>SFX/Arkryas_Bass2_8956FC97.wem</Path>
+				</File>
+				<File Id="542965351" Language="SFX">
+					<ShortName>Arkryas_Bass3.wav</ShortName>
+					<Path>SFX/Arkryas_Bass3_8956FC97.wem</Path>
+				</File>
+				<File Id="649974077" Language="SFX">
+					<ShortName>Arkryas_Lead3.wav</ShortName>
+					<Path>SFX/Arkryas_Lead3_8956FC97.wem</Path>
+				</File>
+				<File Id="688084625" Language="SFX">
+					<ShortName>Arkryas_Chords1.wav</ShortName>
+					<Path>SFX/Arkryas_Chords1_8956FC97.wem</Path>
+				</File>
+				<File Id="734621839" Language="SFX">
+					<ShortName>Arkryas_Drums3.wav</ShortName>
+					<Path>SFX/Arkryas_Drums3_8956FC97.wem</Path>
+				</File>
+				<File Id="777290174" Language="SFX">
+					<ShortName>Nethmi_Chords1.wav</ShortName>
+					<Path>SFX/Nethmi_Chords1_8956FC97.wem</Path>
+				</File>
+				<File Id="802862115" Language="SFX">
+					<ShortName>Arkryas_Chords2.wav</ShortName>
+					<Path>SFX/Arkryas_Chords2_8956FC97.wem</Path>
+				</File>
+				<File Id="840337391" Language="SFX">
+					<ShortName>Nethmi_Chords2.wav</ShortName>
+					<Path>SFX/Nethmi_Chords2_8956FC97.wem</Path>
+				</File>
+				<File Id="930887733" Language="SFX">
+					<ShortName>Nethmi_Bass2.wav</ShortName>
+					<Path>SFX/Nethmi_Bass2_8956FC97.wem</Path>
+				</File>
+				<File Id="946128186" Language="SFX">
+					<ShortName>Nethmi_Chords3.wav</ShortName>
+					<Path>SFX/Nethmi_Chords3_8956FC97.wem</Path>
+				</File>
+				<File Id="992572901" Language="SFX">
+					<ShortName>Arkryas_Chords3.wav</ShortName>
+					<Path>SFX/Arkryas_Chords3_8956FC97.wem</Path>
+				</File>
+				<File Id="1003674847" Language="SFX">
+					<ShortName>Nethmi_Bass3.wav</ShortName>
+					<Path>SFX/Nethmi_Bass3_8956FC97.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

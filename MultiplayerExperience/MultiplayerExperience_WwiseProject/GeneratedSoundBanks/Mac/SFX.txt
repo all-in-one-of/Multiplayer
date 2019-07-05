@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4012389634	Grid_Captured			\Default Work Unit\Grid_Captured	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	369681474	GridLoopTest	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\GridSpatialTest_MONO_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\GridLoopTest		256064
+	723921265	GridCapture	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\GridCaptureTest_MONO_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grid\GridCapture		256064
+

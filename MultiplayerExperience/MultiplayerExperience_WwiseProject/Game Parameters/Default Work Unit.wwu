@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3F36BAF-4633-48FA-A995-84791E7C281B}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B3F36BAF-4633-48FA-A995-84791E7C281B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Neutral1Sidechain" ID="{E6A696CB-6412-4823-8D7B-5BDC7BB75230}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Neutral2Sidechain" ID="{C4342863-CFE3-436E-84AC-68840713CCC0}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.2"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.1"/>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="23"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

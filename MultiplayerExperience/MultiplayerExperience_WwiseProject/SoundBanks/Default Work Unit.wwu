@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{89665703-FB92-406D-A751-73781B43DCC0}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{89665703-FB92-406D-A751-73781B43DCC0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{97989DDB-49AA-41F4-BDED-54F90F484E46}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Grid_Captured" ID="{9FB96F66-E01E-4082-83CE-80B8A0774AAF}" WorkUnitID="{246AD57B-1873-4B67-AEE6-AF9BE44AC393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Grid" ID="{78C16FA9-BED9-414A-B831-E76C5B6C5613}" WorkUnitID="{ADE2D86C-830E-4013-9775-AB0CA8344DD6}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GridLoopTest" ID="{130D08CA-1C3C-4375-ABBC-FDE7F5DBB205}" WorkUnitID="{ADE2D86C-830E-4013-9775-AB0CA8344DD6}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{86447409-47F5-45A8-86EF-63E59F947AD3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayMusic" ID="{04640D26-19F9-444A-A720-4201A6226158}" WorkUnitID="{246AD57B-1873-4B67-AEE6-AF9BE44AC393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopMusic" ID="{A278B360-DB4E-454C-934C-10B30A6CDBCC}" WorkUnitID="{246AD57B-1873-4B67-AEE6-AF9BE44AC393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="MusicSelector" ID="{4599E8FC-9C48-4776-BD40-754642216AC1}" WorkUnitID="{CB26FA3A-343F-4316-8556-4AFC33D3B2A0}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

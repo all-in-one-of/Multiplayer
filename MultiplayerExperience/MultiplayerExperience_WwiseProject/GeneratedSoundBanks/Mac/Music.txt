@@ -1,0 +1,163 @@
+Event	ID	Name			Wwise Object Path	Notes
+	417627684	PlayMusic			\Default Work Unit\PlayMusic	
+	1917263390	StopMusic			\Default Work Unit\StopMusic	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	327504741	Nethmi_Lead_Track			\Default Work Unit\Nethmi_Lead_Track	
+	671537394	NeutralBeat			\Default Work Unit\NeutralBeat	
+	799771874	Nethmi_Drums_Track			\Default Work Unit\Nethmi_Drums_Track	
+	840504669	Arkryas_Lead_Track			\Default Work Unit\Arkryas_Lead_Track	
+	1655745386	Arkryas_Drums_Track			\Default Work Unit\Arkryas_Drums_Track	
+	2413534506	Arkryas_Bass_Track			\Default Work Unit\Arkryas_Bass_Track	
+	3295584738	Nethmi_Bass_Track			\Default Work Unit\Nethmi_Bass_Track	
+	4127328426	Nethmi_Chords_Track			\Default Work Unit\Nethmi_Chords_Track	
+	4147815826	Arkryas_Chords_Track			\Default Work Unit\Arkryas_Chords_Track	
+
+State	ID	Name	State Group			Notes
+	0	None	Nethmi_Lead_Track			
+	1161527244	N_Lead_OFF	Nethmi_Lead_Track			
+	1638612512	N_Lead2	Nethmi_Lead_Track			
+	1638612513	N_Lead3	Nethmi_Lead_Track			
+	1638612515	N_Lead1	Nethmi_Lead_Track			
+	0	None	NeutralBeat			
+	456508117	HasNotReachedLevel3	NeutralBeat			
+	480734474	HasReachedLevel3	NeutralBeat			
+	0	None	Nethmi_Drums_Track			
+	1721408993	N_Drums_OFF	Nethmi_Drums_Track			
+	2266912924	N_Drums1	Nethmi_Drums_Track			
+	2266912926	N_Drums3	Nethmi_Drums_Track			
+	2266912927	N_Drums2	Nethmi_Drums_Track			
+	0	None	Arkryas_Lead_Track			
+	243065072	A_Lead1	Arkryas_Lead_Track			
+	243065074	A_Lead3	Arkryas_Lead_Track			
+	243065075	A_Lead2	Arkryas_Lead_Track			
+	2111501805	A_Lead_OFF	Arkryas_Lead_Track			
+	0	None	Arkryas_Drums_Track			
+	938720014	A_Drums_OFF	Arkryas_Drums_Track			
+	2190997289	A_Drums1	Arkryas_Drums_Track			
+	2190997290	A_Drums2	Arkryas_Drums_Track			
+	2190997291	A_Drums3	Arkryas_Drums_Track			
+	0	None	Arkryas_Bass_Track			
+	87985990	A_Bass_OFF	Arkryas_Bass_Track			
+	3993416049	A_Bass1	Arkryas_Bass_Track			
+	3993416050	A_Bass2	Arkryas_Bass_Track			
+	3993416051	A_Bass3	Arkryas_Bass_Track			
+	0	None	Nethmi_Bass_Track			
+	1376052495	N_Bass_OFF	Nethmi_Bass_Track			
+	2510484356	N_Bass3	Nethmi_Bass_Track			
+	2510484357	N_Bass2	Nethmi_Bass_Track			
+	2510484358	N_Bass1	Nethmi_Bass_Track			
+	0	None	Nethmi_Chords_Track			
+	257197343	N_Chords_OFF	Nethmi_Chords_Track			
+	337487540	N_Chords3	Nethmi_Chords_Track			
+	337487541	N_Chords2	Nethmi_Chords_Track			
+	337487542	N_Chords1	Nethmi_Chords_Track			
+	0	None	Arkryas_Chords_Track			
+	916721085	A_Chords1	Arkryas_Chords_Track			
+	916721086	A_Chords2	Arkryas_Chords_Track			
+	916721087	A_Chords3	Arkryas_Chords_Track			
+	2912201050	A_Chords_OFF	Arkryas_Chords_Track			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	7351	A_Lead_OFF	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead2		
+	14894283	N_Drums2	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums3		
+	17160288	N_Drums_OFF	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums3		
+	18564210	A_Bass2	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass3		
+	27318018	A_Bass_OFF	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass3		
+	53262212	A_Lead2	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead3		
+	61040192	N_Chords2	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords1		
+	68856472	N_Bass2	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass1		
+	77446708	A_Chords_OFF	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords3		
+	81690763	N_Lead3	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead1		
+	128731248	N_Drums1	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums3		
+	133401453	A_Lead3	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead2		
+	142603779	A_Drums_OFF	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums3		
+	166098012	N_Chords_OFF	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords3		
+	202543989	A_Chords3	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords2		
+	203632109	A_Lead_OFF	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead3		
+	206510086	A_Bass_OFF	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass1		
+	218947523	N_Lead2	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead3		
+	221609538	A_Bass3	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass2		
+	261889532	A_Drums2	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums3		
+	267717400	A_Drums_OFF	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums1		
+	287623678	N_Lead1	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead3		
+	382882186	A_Drums1	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums3		
+	403399474	N_Bass_OFF	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass3		
+	421429727	A_Drums3	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums1		
+	448773144	N_Drums_OFF	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums1		
+	449752577	N_Chords1	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords2		
+	463857261	A_Chords2	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords3		
+	465513527	N_Drums1	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums2		
+	483367756	A_Bass3	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass1		
+	489863115	N_Chords2	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords3		
+	501121569	A_Chords_OFF	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords2		
+	509707168	N_Lead2	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead1		
+	524562738	N_Bass3	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass2		
+	524830452	A_Chords2	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords1		
+	526983954	N_Chords_OFF	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords2		
+	557270562	N_Lead1	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead2		
+	558598520	N_Lead_OFF	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead2		
+	577968871	N_Bass3	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass1		
+	600562156	N_Bass_OFF	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass2		
+	608534052	A_Lead1	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead3		
+	609579029	A_Bass1	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass2		
+	616141708	N_Bass1	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass2		
+	656229133	A_Bass_OFF	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass2		
+	673756337	A_Drums2	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums1		
+	681643191	A_Drums3	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums2		
+	685092192	A_Chords1	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords3		
+	686306368	N_Bass2	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass3		
+	686793850	A_Chords_OFF	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords1		
+	708061980	N_Drums3	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums2		
+	719591476	A_Chords1	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords2		
+	731120521	A_Drums_OFF	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums2		
+	756994936	N_Chords3	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords2		
+	773492278	A_Chords3	Arkryas_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords1		
+	813348693	A_Bass1	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass3		
+	841618573	N_Chords3	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords1		
+	841980919	N_Bass_OFF	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass1		
+	847953454	N_Lead_OFF	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead1		
+	894240602	A_Drums1	Arkryas_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums2		
+	918512632	A_Lead3	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead1		
+	926988965	N_Lead_OFF	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead3		
+	941805249	N_Chords_OFF	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords1		
+	942423706	N_Drums2	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums1		
+	946006561	A_Lead2	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead1		
+	956088796	N_Bass1	Nethmi_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass3		
+	963886603	N_Drums_OFF	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums2		
+	964125283	HasNotReachedLevel3	NeutralBeat	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Neutral_Beat2		
+	993944948	A_Lead1	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead2		
+	1010379023	N_Drums3	Nethmi_Drums_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums1		
+	1013419963	A_Bass2	Arkryas_Bass_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass1		
+	1022220478	N_Lead3	Nethmi_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead2		
+	1037578578	A_Lead_OFF	Arkryas_Lead_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead1		
+	1071639139	N_Chords1	Nethmi_Chords_Track	\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords3		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	29955595	Neutral_Beat2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Neutral_Beat2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Neutral_Beat2		2457664
+	147299552	Nethmi_Lead1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Lead1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead1		2457664
+	150452045	Arkryas_Lead2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Lead2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead2		2457664
+	187011840	Nethmi_Lead3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Lead3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead3		2457664
+	204230784	Arkryas_Bass1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Bass1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass1		2457664
+	237308405	Arkryas_Drums2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Drums2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums2		2457664
+	239294676	Nethmi_Drums1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Drums1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums1		2457664
+	313812560	Arkryas_Drums1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Drums1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums1		2457664
+	337625368	Neutral_Beat1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\NeutralBeat_Stage1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Neutral_Beat1		1228864
+	380030715	Nethmi_Drums2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Drums2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums2		2457664
+	384286088	Nethmi_Lead2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Lead2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Lead2		2457664
+	420083011	Nethmi_Bass1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Bass1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass1		2457664
+	431905453	Arkryas_Lead1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Lead1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead1		2457664
+	490190797	Nethmi_Drums3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Drums3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Drums3		2457664
+	530057972	Arkryas_Bass2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Bass2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass2		2457664
+	542965351	Arkryas_Bass3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Bass3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Bass3		2457664
+	649974077	Arkryas_Lead3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Lead3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Lead3		2457664
+	688084625	Arkryas_Chords1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Chords1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords1		2457664
+	734621839	Arkryas_Drums3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Drums3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Drums3		2457664
+	777290174	Nethmi_Chords1	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Chords1_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords1		2457664
+	802862115	Arkryas_Chords2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Chords2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords2		2457664
+	840337391	Nethmi_Chords2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Chords2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords2		2457664
+	930887733	Nethmi_Bass2	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Bass2_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass2		2457664
+	946128186	Nethmi_Chords3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Chords3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Chords3		2457664
+	992572901	Arkryas_Chords3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Arkryas_Chords3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Arkryas_Chords3		2457664
+	1003674847	Nethmi_Bass3	Y:\Music\Sound Junk\Work\VisoSpace\multiplayerexperience\MultiplayerExperience\MultiplayerExperience_WwiseProject\.cache\Mac\SFX\Nethmi_Bass3_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\MusicSelector\Music\Nethmi_Bass3		2457664
+

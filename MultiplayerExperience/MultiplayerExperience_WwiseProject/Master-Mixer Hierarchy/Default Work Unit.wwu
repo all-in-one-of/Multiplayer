@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}" SchemaVersion="89">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{CCB1E371-0F4A-4F63-8098-8C252936A11D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{CB42EE7F-C838-47A1-8B7E-BDDADB5CE13A}" WorkUnitID="{AB56BEFD-53D1-41AE-BB30-F60707CBBF62}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="ChordsBus" ID="{625E88CD-AB5E-4989-9F21-6E24C6258FF4}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{19BBEC5F-84F4-4221-AA73-F4992B8E5A49}" ShortID="110505939">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral2Sidechain" ID="{C4342863-CFE3-436E-84AC-68840713CCC0}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D49F6C0F-9A1D-4204-A95D-080BE518C3F5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-15</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-48</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{8BFE6C6E-8E8C-453D-A65B-40EA1585994E}" ShortID="854685187">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral1Sidechain" ID="{E6A696CB-6412-4823-8D7B-5BDC7BB75230}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{23662A8F-9ED2-43A9-8EFF-D5D6B58F53BB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-30</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="DrumsBus" ID="{7F28CF7C-0701-4A7D-97EA-67B13CFA890A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4E19E997-45BF-42EC-B7E5-24E9309E5A75}" ShortID="469570247">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral1Sidechain" ID="{E6A696CB-6412-4823-8D7B-5BDC7BB75230}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{68081461-773E-435F-999E-BE6BDC684E12}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-35</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>SCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{9DAEA19F-D520-40F8-8EB8-5C26DEA4B7D4}" ShortID="247071826">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral2Sidechain" ID="{C4342863-CFE3-436E-84AC-68840713CCC0}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EE887ADD-032F-42EF-B2FD-B7BB41F12DCB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-35</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-48</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="BassBus" ID="{44BF59C2-EB5C-4ECA-8111-B24687AF8226}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{1E77BF42-C808-4E49-938B-137C3F4D48C9}" ShortID="605526093">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral2Sidechain" ID="{C4342863-CFE3-436E-84AC-68840713CCC0}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{163F1C8D-5E69-4E72-BA1A-40EDFE0EEB0F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-20</XPos>
+														<YPos>-0.10926</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{A8C8D4B7-78CD-4D1D-8039-B39A092BBC8C}" ShortID="972284153">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral1Sidechain" ID="{E6A696CB-6412-4823-8D7B-5BDC7BB75230}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0206A7F6-C08A-4B7B-84E7-714B0A35368B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-25</XPos>
+														<YPos>-0.10926</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="LeadBus" ID="{67D13806-2FB3-42A3-911B-8662DF783BED}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{FD2EAC99-9F74-403F-9685-C1E138F984C9}" ShortID="909540486">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral1Sidechain" ID="{E6A696CB-6412-4823-8D7B-5BDC7BB75230}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{83BC3F69-BFF8-468C-A36E-DDA0AF78BA3C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-40</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{031A799A-D563-4E52-B4EC-7500DEC906DD}" ShortID="922597841">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Neutral2Sidechain" ID="{C4342863-CFE3-436E-84AC-68840713CCC0}" WorkUnitID="{B3F36BAF-4633-48FA-A995-84791E7C281B}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{54E422FD-44B5-4DF6-9046-369458257F70}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>-30</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-48</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="NeutralBeat1" ID="{2AD39D42-69BC-43D4-881A-56C63198FAE0}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{7271B4CD-9491-4FD7-8A72-5FD1CD70E951}" ShortID="798122360" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<PropertyList>
+												<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+												<Property Name="MeterMode" Type="int32" Value="1"/>
+											</PropertyList>
+											<PluginData>
+	<GameParameter Name="Neutral1Sidechain" ID="{E6A696CB-6412-4823-8D7B-5BDC7BB75230}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="NeutralBeat2" ID="{A46382D7-E26A-4462-90AA-258A37889CAA}">
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Meter (Custom)" ID="{F9678455-D6DD-42A2-9F61-869662EC1262}" ShortID="1057859337" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<PropertyList>
+												<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+												<Property Name="ReleaseTime" Type="Real32" Value="0.05"/>
+											</PropertyList>
+											<PluginData>
+	<GameParameter Name="Neutral2Sidechain" ID="{C4342863-CFE3-436E-84AC-68840713CCC0}"/>
+</PluginData>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<AuxBus Name="Reverb" ID="{F4A79EB6-4245-481E-8E2B-15F3639A3A96}">
+							<PropertyList>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Holy" ID="{CC7B8638-C670-4AD5-B3FB-331EA81037F6}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+						</AuxBus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,512 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1077c8a05188477196c9653852d00f1, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 17f44f5c6f5f794fbd834d88282e32b4
+    m_lastTime: -8586610788108256168
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 71e3b1cc4a0f634f80988c252936a11d
+    m_lastTime: -8586610788117490343
+    List:
+    - name: Reverb
+      guid: b69ea7f445421e488e2b15f3639a3a96
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Reverb
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0357668992fb6d40a75173781b43dcc0
+    m_lastTime: -8586610788108784754
+    List:
+    - name: Music
+      guid: 09744486f547a84586ef63e59f947ad3
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit\Music
+    - name: SFX
+      guid: db9d9897aa49f441bded54f90f484e46
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SFX
+        ObjectType: 7
+      Path: Default Work Unit\SFX
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7bd56a247318674baee6af9be44ac393
+    m_lastTime: -8586610788117979032
+    List:
+    - name: Grid_Captured
+      guid: 666fb99f1ee0824083ce80b8a0774aaf
+      id: 4012389634
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Grid_Captured
+        ObjectType: 3
+      Path: Default Work Unit\Grid_Captured
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMusic
+      guid: 260d6404f9194a44a7204201a6226158
+      id: 417627684
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlayMusic
+        ObjectType: 3
+      Path: Default Work Unit\PlayMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopMusic
+      guid: 60b378a24edb4c45934c10b30a6cdbcc
+      id: 1917263390
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopMusic
+        ObjectType: 3
+      Path: Default Work Unit\StopMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: af6bf3b33346fa48a99584791e7c281b
+    m_lastTime: -8586610788117929165
+    List:
+    - name: Neutral1Sidechain
+      guid: cb96a6e6126423488d7b5bdc7bb75230
+      id: 1326729889
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Neutral1Sidechain
+        ObjectType: 13
+      Path: Default Work Unit\Neutral1Sidechain
+    - name: Neutral2Sidechain
+      guid: 632834c4e3cf6e4384ac68840713ccc0
+      id: 2338513932
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Neutral2Sidechain
+        ObjectType: 13
+      Path: Default Work Unit\Neutral2Sidechain
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 89d3d94e93a394418bf8222435ae0cb2
+    m_lastTime: -8586610788108665074
+    List:
+    - name: Arkryas_Bass_Track
+      guid: 5ad94a19240d52488415981280d4fde3
+      id: 2413534506
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Arkryas_Bass_Track
+        ObjectType: 9
+      Path: Default Work Unit\Arkryas_Bass_Track
+      values:
+      - name: A_Bass_OFF
+        guid: 3958c461f910c84495269730c2e805df
+        id: 87985990
+        PathAndIcons:
+        - ElementName: A_Bass_OFF
+          ObjectType: 8
+      - name: A_Bass1
+        guid: 2cadbd4ec074b5459386de52f76a4e48
+        id: 3993416049
+        PathAndIcons:
+        - ElementName: A_Bass1
+          ObjectType: 8
+      - name: A_Bass2
+        guid: d9f3f6d31f9d6741ae12a92248e3926c
+        id: 3993416050
+        PathAndIcons:
+        - ElementName: A_Bass2
+          ObjectType: 8
+      - name: A_Bass3
+        guid: d8326ebb201fc94282d73fa5c6f33646
+        id: 3993416051
+        PathAndIcons:
+        - ElementName: A_Bass3
+          ObjectType: 8
+      - name: None
+        guid: 47921231ee162d4cad6b5761527a410f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: Arkryas_Chords_Track
+      guid: 37f891c1c53e4b41906d48adaa795dab
+      id: 4147815826
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Arkryas_Chords_Track
+        ObjectType: 9
+      Path: Default Work Unit\Arkryas_Chords_Track
+      values:
+      - name: A_Chords_OFF
+        guid: 29c13b29f9e5b14db9287841f87165a4
+        id: 2912201050
+        PathAndIcons:
+        - ElementName: A_Chords_OFF
+          ObjectType: 8
+      - name: A_Chords1
+        guid: ca534a4e6ce2fa45bb7f57c87f3027c3
+        id: 916721085
+        PathAndIcons:
+        - ElementName: A_Chords1
+          ObjectType: 8
+      - name: A_Chords2
+        guid: 7acae7ea0d702c46b4f567f3f9c04fe1
+        id: 916721086
+        PathAndIcons:
+        - ElementName: A_Chords2
+          ObjectType: 8
+      - name: A_Chords3
+        guid: 34476b17fed926458e1ab9ab51843804
+        id: 916721087
+        PathAndIcons:
+        - ElementName: A_Chords3
+          ObjectType: 8
+      - name: None
+        guid: 55f63ed54c83da4b928fd5cbe915cd82
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: Arkryas_Drums_Track
+      guid: c0f65b3bb68fa5438994dd824ece3da4
+      id: 1655745386
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Arkryas_Drums_Track
+        ObjectType: 9
+      Path: Default Work Unit\Arkryas_Drums_Track
+      values:
+      - name: A_Drums_OFF
+        guid: 8dae13b579f90f479655175430d6cbc1
+        id: 938720014
+        PathAndIcons:
+        - ElementName: A_Drums_OFF
+          ObjectType: 8
+      - name: A_Drums1
+        guid: bfeb3ac3f427b848b88d49b11c0ebec9
+        id: 2190997289
+        PathAndIcons:
+        - ElementName: A_Drums1
+          ObjectType: 8
+      - name: A_Drums2
+        guid: 93cd9d05f7560441870f4840aae4a1d2
+        id: 2190997290
+        PathAndIcons:
+        - ElementName: A_Drums2
+          ObjectType: 8
+      - name: A_Drums3
+        guid: 838cd610e228934c8d4ef337275d33a1
+        id: 2190997291
+        PathAndIcons:
+        - ElementName: A_Drums3
+          ObjectType: 8
+      - name: None
+        guid: 05b64bdfffc46642ab6703a9631c9d08
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: Arkryas_Lead_Track
+      guid: 0c60b847cecfc5469e79236f8a07c1be
+      id: 840504669
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Arkryas_Lead_Track
+        ObjectType: 9
+      Path: Default Work Unit\Arkryas_Lead_Track
+      values:
+      - name: A_Lead_OFF
+        guid: c3541ae09ce7c24ca1e1f7125ec5a5e7
+        id: 2111501805
+        PathAndIcons:
+        - ElementName: A_Lead_OFF
+          ObjectType: 8
+      - name: A_Lead1
+        guid: 541ec77d13349249adbe931c8b459b2d
+        id: 243065072
+        PathAndIcons:
+        - ElementName: A_Lead1
+          ObjectType: 8
+      - name: A_Lead2
+        guid: 16812f395cf95e4b96a2e9d6ca1e6a42
+        id: 243065075
+        PathAndIcons:
+        - ElementName: A_Lead2
+          ObjectType: 8
+      - name: A_Lead3
+        guid: 784b45219a79fc44b84b998c91d706a1
+        id: 243065074
+        PathAndIcons:
+        - ElementName: A_Lead3
+          ObjectType: 8
+      - name: None
+        guid: 147e10071c7cd94782a5d9d4c34d3eac
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: Nethmi_Bass_Track
+      guid: 11c57a51fb708846a56555eced36015a
+      id: 3295584738
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nethmi_Bass_Track
+        ObjectType: 9
+      Path: Default Work Unit\Nethmi_Bass_Track
+      values:
+      - name: N_Bass_OFF
+        guid: 74c576db4eb39140a672a34c60c25528
+        id: 1376052495
+        PathAndIcons:
+        - ElementName: N_Bass_OFF
+          ObjectType: 8
+      - name: N_Bass1
+        guid: fab15b72cebe1e468f2e2a1f317b204e
+        id: 2510484358
+        PathAndIcons:
+        - ElementName: N_Bass1
+          ObjectType: 8
+      - name: N_Bass2
+        guid: 44b07b6a61f0ad4caea270ac4146fb26
+        id: 2510484357
+        PathAndIcons:
+        - ElementName: N_Bass2
+          ObjectType: 8
+      - name: N_Bass3
+        guid: eead24c272e16d4a95abbf302c7c5484
+        id: 2510484356
+        PathAndIcons:
+        - ElementName: N_Bass3
+          ObjectType: 8
+      - name: None
+        guid: ffe022ccd62607439ab307c92f55d368
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: Nethmi_Chords_Track
+      guid: f8da75d6294bc64a83c5e5030b1be787
+      id: 4127328426
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nethmi_Chords_Track
+        ObjectType: 9
+      Path: Default Work Unit\Nethmi_Chords_Track
+      values:
+      - name: N_Chords_OFF
+        guid: e6df69a1a60ea14fbb687827e9a456f7
+        id: 257197343
+        PathAndIcons:
+        - ElementName: N_Chords_OFF
+          ObjectType: 8
+      - name: N_Chords1
+        guid: 8bde89563025b74d914a89c973233f36
+        id: 337487542
+        PathAndIcons:
+        - ElementName: N_Chords1
+          ObjectType: 8
+      - name: N_Chords2
+        guid: 5a67287bd0f94b4e9c1c0355b850b954
+        id: 337487541
+        PathAndIcons:
+        - ElementName: N_Chords2
+          ObjectType: 8
+      - name: N_Chords3
+        guid: 73392e20f2aa274996f148450ab59691
+        id: 337487540
+        PathAndIcons:
+        - ElementName: N_Chords3
+          ObjectType: 8
+      - name: None
+        guid: 6c46441f54862842a3e2bb2a22856362
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: Nethmi_Drums_Track
+      guid: 4ef02581d54d8844acd0ec507f4d94c4
+      id: 799771874
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nethmi_Drums_Track
+        ObjectType: 9
+      Path: Default Work Unit\Nethmi_Drums_Track
+      values:
+      - name: N_Drums_OFF
+        guid: 77f3c753423364498dcb1247af951c67
+        id: 1721408993
+        PathAndIcons:
+        - ElementName: N_Drums_OFF
+          ObjectType: 8
+      - name: N_Drums1
+        guid: ebe509cb8ac4df4888171610da2af191
+        id: 2266912924
+        PathAndIcons:
+        - ElementName: N_Drums1
+          ObjectType: 8
+      - name: N_Drums2
+        guid: 8622dd615b382742bea7eb82d3309f63
+        id: 2266912927
+        PathAndIcons:
+        - ElementName: N_Drums2
+          ObjectType: 8
+      - name: N_Drums3
+        guid: 337f885660b1824398c533cbb14b4300
+        id: 2266912926
+        PathAndIcons:
+        - ElementName: N_Drums3
+          ObjectType: 8
+      - name: None
+        guid: 7bf30927d0639b46a32c9f4f448cc2c3
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: Nethmi_Lead_Track
+      guid: e84fb156f2d3764fb2bc197cae384edf
+      id: 327504741
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Nethmi_Lead_Track
+        ObjectType: 9
+      Path: Default Work Unit\Nethmi_Lead_Track
+      values:
+      - name: N_Lead_OFF
+        guid: 0db7f21f867a7a48a88c8ab09d9f013f
+        id: 1161527244
+        PathAndIcons:
+        - ElementName: N_Lead_OFF
+          ObjectType: 8
+      - name: N_Lead1
+        guid: 67f0610bfd0ab049adb7a5f3d1cfb6a2
+        id: 1638612515
+        PathAndIcons:
+        - ElementName: N_Lead1
+          ObjectType: 8
+      - name: N_Lead2
+        guid: 951ae3d503e23946b87752ed88e9867f
+        id: 1638612512
+        PathAndIcons:
+        - ElementName: N_Lead2
+          ObjectType: 8
+      - name: N_Lead3
+        guid: 93a459d99d9b3a4ebcf8e13452b043ab
+        id: 1638612513
+        PathAndIcons:
+        - ElementName: N_Lead3
+          ObjectType: 8
+      - name: None
+        guid: 448f0574e933114fab32d8a119953542
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+    - name: NeutralBeat
+      guid: 70fd71e65bd1f4428dc0398659a0057f
+      id: 671537394
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NeutralBeat
+        ObjectType: 9
+      Path: Default Work Unit\NeutralBeat
+      values:
+      - name: HasNotReachedLevel3
+        guid: b96560a382ca1a429b628709ce3a565b
+        id: 456508117
+        PathAndIcons:
+        - ElementName: HasNotReachedLevel3
+          ObjectType: 8
+      - name: HasReachedLevel3
+        guid: 4d009f8fb6d0e04fbd4423bab36167b7
+        id: 480734474
+        PathAndIcons:
+        - ElementName: HasReachedLevel3
+          ObjectType: 8
+      - name: None
+        guid: 344a31637ec48f49834895437fff022e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 77726605cdec3c49bd9c3b582dfb2f5d
+    m_lastTime: -8586610788108595261
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: e94bc7f17e26f040966f9595950c0d58
+    m_lastTime: -8586610788108605234
+    List: []
+  ExpandedItems:
+  - /MultiplayerExperience_WwiseProject
+  - /MultiplayerExperience_WwiseProject/Auxiliary Busses
+  - /MultiplayerExperience_WwiseProject/Events
+  - /MultiplayerExperience_WwiseProject/Events/Default Work Unit
+  - /MultiplayerExperience_WwiseProject/SoundBanks
+  - /MultiplayerExperience_WwiseProject/SoundBanks/Default Work Unit
+  - /MultiplayerExperience_WwiseProject/States
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Arkryas_Bass_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Arkryas_Chords_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Arkryas_Drums_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Arkryas_Lead_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Nethmi_Bass_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Nethmi_Chords_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Nethmi_Drums_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/Nethmi_Lead_Track
+  - /MultiplayerExperience_WwiseProject/States/Default Work Unit/NeutralBeat
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

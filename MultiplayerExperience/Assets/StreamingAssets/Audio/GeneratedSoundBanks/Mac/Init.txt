@@ -1,0 +1,81 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	327504741	Nethmi_Lead_Track			\Default Work Unit\Nethmi_Lead_Track	
+	671537394	NeutralBeat			\Default Work Unit\NeutralBeat	
+	799771874	Nethmi_Drums_Track			\Default Work Unit\Nethmi_Drums_Track	
+	840504669	Arkryas_Lead_Track			\Default Work Unit\Arkryas_Lead_Track	
+	1655745386	Arkryas_Drums_Track			\Default Work Unit\Arkryas_Drums_Track	
+	2413534506	Arkryas_Bass_Track			\Default Work Unit\Arkryas_Bass_Track	
+	3295584738	Nethmi_Bass_Track			\Default Work Unit\Nethmi_Bass_Track	
+	4127328426	Nethmi_Chords_Track			\Default Work Unit\Nethmi_Chords_Track	
+	4147815826	Arkryas_Chords_Track			\Default Work Unit\Arkryas_Chords_Track	
+
+State	ID	Name	State Group			Notes
+	0	None	Nethmi_Lead_Track			
+	1161527244	N_Lead_OFF	Nethmi_Lead_Track			
+	1638612512	N_Lead2	Nethmi_Lead_Track			
+	1638612513	N_Lead3	Nethmi_Lead_Track			
+	1638612515	N_Lead1	Nethmi_Lead_Track			
+	0	None	NeutralBeat			
+	456508117	HasNotReachedLevel3	NeutralBeat			
+	480734474	HasReachedLevel3	NeutralBeat			
+	0	None	Nethmi_Drums_Track			
+	1721408993	N_Drums_OFF	Nethmi_Drums_Track			
+	2266912924	N_Drums1	Nethmi_Drums_Track			
+	2266912926	N_Drums3	Nethmi_Drums_Track			
+	2266912927	N_Drums2	Nethmi_Drums_Track			
+	0	None	Arkryas_Lead_Track			
+	243065072	A_Lead1	Arkryas_Lead_Track			
+	243065074	A_Lead3	Arkryas_Lead_Track			
+	243065075	A_Lead2	Arkryas_Lead_Track			
+	2111501805	A_Lead_OFF	Arkryas_Lead_Track			
+	0	None	Arkryas_Drums_Track			
+	938720014	A_Drums_OFF	Arkryas_Drums_Track			
+	2190997289	A_Drums1	Arkryas_Drums_Track			
+	2190997290	A_Drums2	Arkryas_Drums_Track			
+	2190997291	A_Drums3	Arkryas_Drums_Track			
+	0	None	Arkryas_Bass_Track			
+	87985990	A_Bass_OFF	Arkryas_Bass_Track			
+	3993416049	A_Bass1	Arkryas_Bass_Track			
+	3993416050	A_Bass2	Arkryas_Bass_Track			
+	3993416051	A_Bass3	Arkryas_Bass_Track			
+	0	None	Nethmi_Bass_Track			
+	1376052495	N_Bass_OFF	Nethmi_Bass_Track			
+	2510484356	N_Bass3	Nethmi_Bass_Track			
+	2510484357	N_Bass2	Nethmi_Bass_Track			
+	2510484358	N_Bass1	Nethmi_Bass_Track			
+	0	None	Nethmi_Chords_Track			
+	257197343	N_Chords_OFF	Nethmi_Chords_Track			
+	337487540	N_Chords3	Nethmi_Chords_Track			
+	337487541	N_Chords2	Nethmi_Chords_Track			
+	337487542	N_Chords1	Nethmi_Chords_Track			
+	0	None	Arkryas_Chords_Track			
+	916721085	A_Chords1	Arkryas_Chords_Track			
+	916721086	A_Chords2	Arkryas_Chords_Track			
+	916721087	A_Chords3	Arkryas_Chords_Track			
+	2912201050	A_Chords_OFF	Arkryas_Chords_Track			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1326729889	Neutral1Sidechain			\Default Work Unit\Neutral1Sidechain	
+	2338513932	Neutral2Sidechain			\Default Work Unit\Neutral2Sidechain	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	2477329335	LeadBus			\Default Work Unit\Master Audio Bus\LeadBus	
+	2986568378	BassBus			\Default Work Unit\Master Audio Bus\BassBus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3865739326	ChordsBus			\Default Work Unit\Master Audio Bus\ChordsBus	
+	4106716356	NeutralBeat2			\Default Work Unit\Master Audio Bus\NeutralBeat2	
+	4106716359	NeutralBeat1			\Default Work Unit\Master Audio Bus\NeutralBeat1	
+	4235105170	DrumsBus			\Default Work Unit\Master Audio Bus\DrumsBus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	798122360	Wwise Meter (Custom)	Wwise Meter			
+	1057859337	Wwise Meter (Custom)	Wwise Meter			
+	3164629247	Holy	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
